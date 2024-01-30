@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h1, h2 {
+    margin-bottom: 0.4em;
+}
+
+p{
+    margin-top: 0;
+}
+
+header {
+    width: 100%;
+    height: 3.5em;
+    font-size: 1.2em;
+    position: fixed;
+    color: #ffffff;
+    background-color: #ffcc00;
+    z-index: 999;
+}
+
+header img {
+    width: 50%;
+}
+
+main {
+    padding-top: 5em;
+    width: 60em;
+    margin: auto;
+}
+
+.header-container {
+    margin: auto;
+    width: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero p{
+    margin: auto;
+    width: 80%;
+}
+
+.hero, .hero img, .wat-is-lego, .geschiedenis, .eerste-steen, .succes, .today {
+    margin: auto;
+    width: 60em;
+}
+
+.geschiedenis-wrapper, .eerste-steen-wrapper, .succes-wrapper {
+    display: flex;
+    gap: 1em;
+}
+
+.geschiedenis img, .eerste-steen img, .succes-wrapper img {
+    width: 30%;
+    margin-bottom: 1em;
+}
+
+.today img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 0.18em;
+    width: 6em;
+    padding: 0.5em;
+    color: #ffffff;
+}
+
+ul li::before {
+    position:absolute;
+    right: 0.5em;
+    content:'';
+    height: 1em; width: 6em;
+    bottom: 1.7em;
+    background-size:1.65em;
+}
+
+ul li:nth-of-type(1) {
+    background-color: #ff0000;
+}
+
+ul li:nth-of-type(1)::before {
+    background-image:linear-gradient(90deg, transparent 0.01em, #ff0000 0, #ff0000 1.1em, transparent 0);
+}
+
+ul li:nth-of-type(2) {
+    background-color: #0000ff;
+}
+
+ul li:nth-of-type(2)::before {
+    background-image:linear-gradient(90deg, transparent 0.01em, #0000ff 0, #0000ff 1.1em, transparent 0);
+}
+
+ul li:nth-of-type(3) {
+    background-color: #ff00ff;
+}
+
+ul li:nth-of-type(3)::before {
+    background-image:linear-gradient(90deg, transparent 0.01em, #ff00ff 0, #ff00ff 1.1em, transparent 0);
+}
+
+ul li:nth-of-type(4) {
+    background-color: #008000;
+}
+
+ul li:nth-of-type(4)::before {
+    background-image:linear-gradient(90deg, transparent 0.01em, #008000 0, #008000 1.1em, transparent 0);
+}
+
+ul li:hover {
+    transform: translateY(-0.3em);
+    font-weight: bold;
+    transition: 0.3s ease;
+    
+}
+
+.logo-wrapper img {
+    width: 15em;
+    height: auto;
+}
+
+
+/* https://codepen.io/stefcharle/pen/Gydvbx */
+.gallery-wrap {
+    display: flex;
+    height: 30vh;
+}
+  
+.item {
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    transition: flex 0.8s ease;
+    
+    &:hover{
+      flex: 1.5;
+    }
+}
+  
+.item-1 { 
+    background-image: url('/images/lego-playing.jpg');
+}
+  
+.item-2 { 
+    background-image: url('/images/lego-art.jpg');
+}
+  
+.item-3 { 
+    background-image: url('/images/lego-castle.jpg');
+}
+  
+.item-4 { 
+    background-image: url('/images/lego-tajmahal.jpg');
+}
+  
+.item-5 { 
+    background-image: url('/images/lego-endor.jpg');
+}
+
+.sidenav {
+    position: fixed;
+}
+
+.sidenav ul{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    position: relative;
+    right: 2.4em;
+}
+
+.sidenav li:hover {
+    transform: translatex(1em);
+    font-weight: bold;
+    transition: 0.3s ease;
+    
+}
+
+.themas, .themas img {
+    width: 40em;
+    position: relative;
+    float: right;
+    margin-bottom: 1em;
+}
+
+.intro {
+   margin: auto;
+   width: 50em;
+   text-align: center;
+}
+
+.moc-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moc-card, .moc-card img {
+    margin-top: 1em;
+    width: 16em;
+    text-align: center;
+}
