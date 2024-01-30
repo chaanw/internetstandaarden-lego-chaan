@@ -169,23 +169,23 @@ ul li:hover {
 }
   
 .item-1 { 
-    background-image: url('/images/lego-playing.jpg');
+    background-image: url('images/lego-playing.jpg');
 }
   
 .item-2 { 
-    background-image: url('/images/lego-art.jpg');
+    background-image: url('images/lego-art.jpg');
 }
   
 .item-3 { 
-    background-image: url('/images/lego-castle.jpg');
+    background-image: url('images/lego-castle.jpg');
 }
   
 .item-4 { 
-    background-image: url('/images/lego-tajmahal.jpg');
+    background-image: url('images/lego-tajmahal.jpg');
 }
   
 .item-5 { 
-    background-image: url('/images/lego-endor.jpg');
+    background-image: url('images/lego-endor.jpg');
 }
 
 .sidenav {
